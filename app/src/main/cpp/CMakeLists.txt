@@ -4,8 +4,6 @@ message("Starting Build")
 
 message( ${ANDROID_ABI} )
 
-
-#[[
 include_directories(C:/Program Files/Android/armv7/lib/glib-2.0/include)
 include_directories(C:/Program Files/Android/armv7/include/glib-2.0)
 include_directories(C:/Program Files/Android/armv7/include/gstreamer-1.0)
@@ -18,8 +16,6 @@ include_directories(C:/Program Files/Android/x86/include/gstreamer-1.0)
 include_directories(C:/Program Files/Android/x86_64/lib/glib-2.0/include)
 include_directories(C:/Program Files/Android/x86_64/include/glib-2.0)
 include_directories(C:/Program Files/Android/x86_64/include/gstreamer-1.0)
-]]
-
 
 IF(${ANDROID_ABI} STREQUAL armeabi-v7a)
     include_directories(C:/Program Files/Android/armv7/lib/glib-2.0/include)
