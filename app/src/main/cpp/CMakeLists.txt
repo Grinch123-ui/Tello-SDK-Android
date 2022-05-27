@@ -4,6 +4,7 @@ message("Starting Build")
 
 message( ${ANDROID_ABI} )
 
+# Change the file paths here to one where you placed the GStreamer libraries.
 IF(${ANDROID_ABI} STREQUAL armeabi-v7a)
     include_directories(C:/Program Files/Android/armv7/lib/glib-2.0/include)
     include_directories(C:/Program Files/Android/armv7/include/glib-2.0)
