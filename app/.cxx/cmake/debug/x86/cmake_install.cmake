@@ -1,4 +1,4 @@
-# Install script for directory: C:/CURRENT-WORK/duvitech/Tello-SDK-Android/app/src/main/cpp
+# Install script for directory: C:/iSecure_App_Code/app/src/main/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/CURRENT-WORK/duvitech/Tello-SDK-Android/app/.cxx/cmake/debug/x86/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/iSecure_App_Code/app/.cxx/cmake/debug/x86/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

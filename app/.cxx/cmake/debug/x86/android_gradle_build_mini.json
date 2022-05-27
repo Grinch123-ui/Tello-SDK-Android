@@ -1,21 +1,21 @@
 {
   "buildFiles": [
-    "C:\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\android.toolchain.cmake",
-    "C:\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\platforms.cmake",
-    "C:\\CURRENT-WORK\\duvitech\\Tello-SDK-Android\\app\\src\\main\\cpp\\CMakeLists.txt"
+    "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\platforms.cmake",
+    "C:\\iSecure_App_Code\\app\\src\\main\\cpp\\CMakeLists.txt"
   ],
   "cleanCommands": [
-    "C:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\CURRENT-WORK\\duvitech\\Tello-SDK-Android\\app\\.cxx\\cmake\\debug\\x86\" clean"
+    "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\iSecure_App_Code\\app\\.cxx\\cmake\\debug\\x86\" clean"
   ],
-  "buildTargetsCommand": "C:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\CURRENT-WORK\\duvitech\\Tello-SDK-Android\\app\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\iSecure_App_Code\\app\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "gstTelloVideo-Debug-x86": {
       "artifactName": "gstTelloVideo",
-      "buildCommand": "C:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\CURRENT-WORK\\duvitech\\Tello-SDK-Android\\app\\.cxx\\cmake\\debug\\x86\" gstTelloVideo",
+      "buildCommand": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\iSecure_App_Code\\app\\.cxx\\cmake\\debug\\x86\" gstTelloVideo",
       "abi": "x86",
-      "output": "C:\\CURRENT-WORK\\duvitech\\Tello-SDK-Android\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libgstTelloVideo.so",
+      "output": "C:\\iSecure_App_Code\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libgstTelloVideo.so",
       "runtimeFiles": [
-        "C:\\CURRENT-WORK\\duvitech\\Tello-SDK-Android\\app\\gst-build-x86\\libgstreamer_android.so"
+        "C:\\iSecure_App_Code\\app\\gst-build-x86\\libgstreamer_android.so"
       ]
     }
   }
